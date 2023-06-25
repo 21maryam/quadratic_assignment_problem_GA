@@ -9,7 +9,7 @@ generate the initial population. This means each chromosome has 12 genes and eac
 …) represents the assignment of each department to exactly one location. In Table 2, for example, 
 chromosome D[11,6,9,4,12,2,8, 3,7,10,1,5] means that departments 11, 6, 9, .. have been assigned to 
 locations 1, 2, 3, … respectively. 
-9 
+
 Step 2) Crossover: In this step, I used a single-point crossover to make children. In fact, one point 
 is randomly selected, and the tails of each parent are swapped with each other with a probability of 
 crossover (Pc). As we prefer to have a high probability of crossover I have changed this probability 
