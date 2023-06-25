@@ -1,4 +1,15 @@
 # quadratic_assignment_problem_GA
+This is the fifth of the QAP test problems of Nugent et al. (1968). Twelve departments are to be placed 
+in twelve locations with four in the top row, four in the middle row, and four in the bottom row. The 
+objective is to minimize flow costs between the placed departments. The flow cost is (flow * distance), 
+where both flow and distance are symmetric between any given pair of departments and any given pair 
+of locations, respectively. Below is the flow and distance matrix where rectilinear distance is the upper 
+half. The optimal flow cost is 289 (or 578 if you double the flows).
+
+![image](https://github.com/21maryam/quadratic_assignment_problem_GA/assets/8570133/0cfc658c-9e27-4bb4-bfc3-472820a0d1ac)
+
+
+
 Solving QAP with GA: 
 
 Step 1) Permutation Encoding and Generate Chromosome: First, we need to encode the 
