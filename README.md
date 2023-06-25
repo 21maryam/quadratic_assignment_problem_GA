@@ -1,7 +1,5 @@
 # quadratic_assignment_problem_GA
-Solving quadratic assignment problems using genetic algorithm
-
-QAP with GA: 
+Solving QAP with GA: 
 
 Step 1) Permutation Encoding and Generate Chromosome: First, we need to encode the 
 individuals or solutions in the population in the genetic algorithm. In the permutation encoding, 
